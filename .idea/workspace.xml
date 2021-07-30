@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10ea7343-d6c3-4017-8388-e380b44dd1e7" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/pojo/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/ArticleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/TagVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/vo/params/PageParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/com/mszlu/blog/dao/mapper/TagMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/BlogApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/BlogApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/mszlu/blog/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/target/classes/com/mszlu/blog/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/dao/mapper/TagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/mszlu/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
