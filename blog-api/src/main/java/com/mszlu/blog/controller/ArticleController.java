@@ -3,6 +3,7 @@ package com.mszlu.blog.controller;
 import com.mszlu.blog.service.ArticleService;
 import com.mszlu.blog.vo.ArticleVo;
 import com.mszlu.blog.vo.Result;
+import com.mszlu.blog.vo.params.ArticleParam;
 import com.mszlu.blog.vo.params.PageParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -46,5 +47,10 @@ public class ArticleController {
         ArticleVo articleVo = articleService.findArticleById(id);
 
         return Result.success(articleVo);
+    }
+
+    @PostMapping("publish")
+    public Result publish(@RequestBody ArticleParam articleParam){
+        return articleService.publish(articleParam);
     }
 }

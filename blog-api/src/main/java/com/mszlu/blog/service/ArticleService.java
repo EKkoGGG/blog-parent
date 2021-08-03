@@ -2,6 +2,7 @@ package com.mszlu.blog.service;
 
 import com.mszlu.blog.vo.ArticleVo;
 import com.mszlu.blog.vo.Result;
+import com.mszlu.blog.vo.params.ArticleParam;
 import com.mszlu.blog.vo.params.PageParams;
 
 public interface ArticleService {
@@ -20,4 +21,6 @@ public interface ArticleService {
     Result listArchives();
 
     ArticleVo findArticleById(Long id);
+
+    Result publish(ArticleParam articleParam);
 }
