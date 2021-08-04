@@ -1,5 +1,6 @@
 package com.mszlu.blog.controller;
 
+import com.mszlu.blog.common.aop.LogAnnotation;
 import com.mszlu.blog.service.ArticleService;
 import com.mszlu.blog.vo.ArticleVo;
 import com.mszlu.blog.vo.Result;
@@ -17,28 +18,30 @@ public class ArticleController {
 
     /**
      * 首页 文章列表
+     *
      * @param pageParams
      * @return
      */
     @PostMapping
-    public Result listArticle(@RequestBody PageParams pageParams){
+    @LogAnnotation(module = "文章",operation = "获取文章列表")
+    public Result listArticle(@RequestBody PageParams pageParams) {
         return articleService.listArticle(pageParams);
     }
 
     @PostMapping("hot")
-    public Result hotArticle(){
+    public Result hotArticle() {
         int limit = 5;
         return articleService.hotArticle(limit);
     }
 
     @PostMapping("new")
-    public Result newArticles(){
+    public Result newArticles() {
         int limit = 5;
         return articleService.newArticles(limit);
     }
 
     @PostMapping("listArchives")
-    public Result listArchives(){
+    public Result listArchives() {
         return articleService.listArchives();
     }
 
@@ -50,7 +53,7 @@ public class ArticleController {
     }
 
     @PostMapping("publish")
-    public Result publish(@RequestBody ArticleParam articleParam){
+    public Result publish(@RequestBody ArticleParam articleParam) {
         return articleService.publish(articleParam);
     }
 }
